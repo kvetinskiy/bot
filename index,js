@@ -1,7 +1,0 @@
-const Telegraf = require('telegraf')
-
-const bot = new Telegraf(process.env.677177030:AAGSZb4ES82-MX2-3VHtAHbny_0KxGTwiiM)
-bot.command('oldschool', (ctx) => ctx.reply('Hello'))
-bot.command('modern', ({ reply }) => reply('Yo'))
-bot.command('hipster', Telegraf.reply('λ'))
-bot.launch()
